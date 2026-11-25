@@ -2,12 +2,10 @@ import { expect } from '@playwright/test';
 
 export class BaseClass {
 
-    constructor(page) {
-
+    constructor(page, expect) {
         this.page = page;
-
+        this.expect = expect;
     }
-
     async launchbrowserandgotourl(url) {
 
         await this.page.goto(url);
@@ -21,8 +19,6 @@ export class BaseClass {
     }
 
     async closebrowser() {
-
-        // Playwright fixture automatically closes browser.
 
     }
 
