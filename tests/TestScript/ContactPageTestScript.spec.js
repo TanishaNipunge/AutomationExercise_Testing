@@ -19,7 +19,7 @@ test.describe("SignUp To Automation Exercise", () => {
         await ContactActionref.entermessage('Test Message');
         await ContactActionref.uploadfile('C:/Users/tanis/OneDrive/Pictures/3D image of a cute c.png');
         await ContactActionref.clicksubmit();
-        await ContactActionref.clickhome();
+        // await ContactActionref.clickhome();
     });
 
 });
