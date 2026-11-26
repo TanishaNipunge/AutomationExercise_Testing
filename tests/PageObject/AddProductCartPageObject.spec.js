@@ -27,7 +27,7 @@ export class ProductsPage extends BaseClass {
 
         this.continue_shopping = this.page.locator("//button[text()='Continue Shopping']");
 
-        this.view_cart = this.page.locator("//u[text()='View Cart']");
+        this.view_cart = this.page.locator("//u[text()='View Clart']");
 
         // Cart Products
         this.cart_products = this.page.locator("//tr[contains(@id,'product-')]");
